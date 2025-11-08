@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏦 [Bank] - Sistema Bancário em C#
 
 Um sistema bancário completo desenvolvido em C# e .NET, focado em demonstrar os principais conceitos de **Programação Orientada a Objetos (POO)**. Este projeto simula uma experiência bancária, oferecendo funcionalidades modernas como PIX, investimentos e **persistência de dados em JSON**.
@@ -161,10 +160,7 @@ Este projeto está licenciado sob a **Licença MIT** - veja o arquivo `LICENSE` 
 
 👨‍💻 Autor
 
-* **[Seu Nome]**
-* **GitHub:** `@[Seu GitHub]`
+* **[Luis Batista]**
+* **GitHub:** `@[Luis-Batista-Code]`
 
 ⭐ *Se este projeto te ajudou, considere dar uma estrela!*
-=======
-# sistema-bancario-csharp
->>>>>>> 91bb42c5471692443fea9688fe50ad55c3aa7469
