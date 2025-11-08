@@ -164,7 +164,7 @@ Este projeto está licenciado sob a **Licença MIT** - veja o arquivo `LICENSE` 
 
 👨‍💻 Autor
 
-* **[Luis Batista]**
-* **GitHub:** `@[Luis-Batista-Code]`
+* **Luis Batista**
+* **GitHub:** `@Luis-Batista-Code`
 
 ⭐ *Se este projeto te ajudou, considere dar uma estrela!*
