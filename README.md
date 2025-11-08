@@ -2,9 +2,9 @@
 
 Um sistema bancário completo desenvolvido em C# e .NET, focado em demonstrar os principais conceitos de **Programação Orientada a Objetos (POO)**. Este projeto simula uma experiência bancária, oferecendo funcionalidades modernas como PIX, investimentos e **persistência de dados em JSON**.
 
-✨ Características do Projeto
+## ✨ Características do Projeto
 
-🎯 Conceitos de POO Aplicados
+### 🎯 Conceitos de POO Aplicados
 
 * 🔒 **Encapsulamento:** Proteção de dados sensíveis das contas (usando propriedades C# `{ get; set; }`).
 * 🏗️ **Herança:** Classe abstrata `Conta` e implementação `ContaCorrente`.
@@ -12,7 +12,7 @@ Um sistema bancário completo desenvolvido em C# e .NET, focado em demonstrar os
 * 📦 **Abstração:** Interface simples para operações bancárias complexas.
 * ♻️ **Reutilização:** Componentes modulares e reutilizáveis.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 * 💳 **Gestão de Contas**
     * ✅ Criação de contas com dados do cliente (Nome, CPF).
@@ -28,16 +28,15 @@ Um sistema bancário completo desenvolvido em C# e .NET, focado em demonstrar os
     * ✅ **Banco de Dados JSON:** O sistema **salva automaticamente** todas as contas e transações em um arquivo `contas.json`.
     * ✅ **Carregamento Automático:** Ao iniciar, o sistema carrega todos os dados salvos anteriormente, garantindo que nenhuma informação seja perdida.
 
-🛡️ Validações e Segurança
-
-* Verificação de saldo suficiente.
-* Validação de contas existentes.
-* Tratamento de entradas inválidas (usando `TryParse`) para evitar que o programa quebre.
-* Registro detalhado de operações no histórico.
+* 🛡️ Validações e Segurança
+   * Verificação de saldo suficiente.
+   * Validação de contas existentes.
+   * Tratamento de entradas inválidas (usando `TryParse`) para evitar que o programa quebre.
+   * Registro detalhado de operações no histórico.
 
 ---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 O projeto segue uma estrutura simplificada, ideal para aplicações de console, onde todas as classes de lógica estão na raiz do projeto.
 ```sh
@@ -54,7 +53,7 @@ sistema-bancario/
 ```
 ---
 
-🛠️ Como Executar
+## 🛠️ Como Executar
 
 **Pré-requisitos**
 
@@ -76,10 +75,10 @@ sistema-bancario/
 
 ---
 
-🎮 Como Usar
+## 🎮 Como Usar
 
 Ao executar o programa, você verá o menu principal no seu terminal:
-
+```sh
 === Bem-vindo ao Bank ===
 
 Escolha uma opção:
@@ -90,10 +89,15 @@ Escolha uma opção:
 5 - Investir
 6 - Mostrar histórico
 0 - Sair
+```
+* **Exemplo de Uso:**
+   * Crie duas contas (ex: "123" e "456").
+   * Deposite um valor na conta "123".
+   * Faça um PIX da "123" para a "456".
+   * Saia do programa (opção 0).
+   * Execute o programa novamente (`dotnet run`) e consulte o histórico de ambas as contas. Os dados estarão lá!
 
-* **Exemplo de Uso:** Crie duas contas (ex: "123" e "456"). Deposite um valor na conta "123". Faça um PIX da "123" para a "456". Saia do programa (opção 0). Execute o programa novamente (`dotnet run`) e consulte o histórico de ambas as contas. Os dados estarão lá!
-
-🔢 Exemplo de Investimento
+## 🔢 Exemplo de Investimento
 
 O sistema simula investimentos usando **juros compostos**:
 
@@ -104,7 +108,7 @@ O sistema simula investimentos usando **juros compostos**:
 
 ---
 
-🏛️ Arquitetura
+## 🏛️ Arquitetura
 
 * **Padrões Utilizados:**
     * **Separação de Responsabilidades (SoC):** Cada classe tem um propósito único (`Cliente` guarda dados, `Conta` tem regras de saldo, `SistemaBancario` gerencia tudo).
@@ -122,7 +126,7 @@ O sistema simula investimentos usando **juros compostos**:
 
 ---
 
-🎓 Conceitos Aplicados (Tecnologias da Conversão)
+## 🎓 Conceitos Aplicados (Tecnologias da Conversão)
 
 Este projeto aplica conceitos fundamentais de C# e do ecossistema .NET:
 
@@ -140,7 +144,7 @@ Este projeto aplica conceitos fundamentais de C# e do ecossistema .NET:
 
 ---
 
-🤝 Contribuições
+## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 
