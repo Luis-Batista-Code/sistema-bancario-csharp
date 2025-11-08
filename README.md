@@ -40,7 +40,7 @@ Um sistema bancário completo desenvolvido em C# e .NET, focado em demonstrar os
 📁 Estrutura do Projeto
 
 O projeto segue uma estrutura simplificada, ideal para aplicações de console, onde todas as classes de lógica estão na raiz do projeto.
-
+```sh
 sistema-bancario/
 ├── Program.cs                    # Interface do usuário e menu principal
 ├── model/
@@ -51,7 +51,7 @@ sistema-bancario/
 │   └── SistemaBancario.cs    # Gerenciamento do sistema
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 🛠️ Como Executar
