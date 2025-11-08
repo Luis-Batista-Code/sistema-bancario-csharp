@@ -64,8 +64,8 @@ sistema-bancario/
 
 1.  Clone o repositório
     ```sh
-    git clone [https://github.com/](https://github.com/)[Seu GitHub]/[Seu Repositorio]
-    cd [Seu Repositorio]
+    git clone https://github.com/Luis-Batista-Code/sistema-bancario-csharp.git
+    cd sistema-bancario-csharp
     ```
 
 2.  Execute a aplicação (via terminal)
