@@ -1,0 +1,29 @@
+{
+  "1": {
+    "Saldo": 1062882000,
+    "Cliente": {
+      "Nome": "Luis",
+      "Cpf": "47623178881"
+    },
+    "NumeroConta": "1",
+    "Historico": [
+      "Dep\u00F3sito: R$5000",
+      "Saque: R$3000",
+      "Transfer\u00EAncia PIX para 2: R$3000",
+      "Saque: R$2000",
+      "Dep\u00F3sito: R$1062882000",
+      "Investimento: lucro de R$1062880000,00"
+    ]
+  },
+  "2": {
+    "Saldo": 3000,
+    "Cliente": {
+      "Nome": "Eleandrea",
+      "Cpf": "31620451859"
+    },
+    "NumeroConta": "2",
+    "Historico": [
+      "Dep\u00F3sito: R$3000"
+    ]
+  }
+}
